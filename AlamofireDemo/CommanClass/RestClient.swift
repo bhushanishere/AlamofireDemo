@@ -12,6 +12,7 @@ import SwiftyJSON
 
 class RestClient: NSObject {
     
+    /// If you have base url so please add here and appent endpoint url after that.ß
     let SERVER_URL  : String = ""
     let netManager = NetworkReachabilityManager(host: "Host_name".localizedString)
 
